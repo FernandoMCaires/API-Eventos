@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('express');
-const filmes = require('./eventos.json'); // Importação dos dados de eventos.
+const eventos = require('./eventos.json'); // Importação dos dados de eventos.
 const path = require('path');
 
 const app = express();
