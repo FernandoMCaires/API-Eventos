@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('express');
+const cors = require('cors');
 const eventos = require('./eventos.json'); // Importação dos dados de eventos.
 const path = require('path');
 
