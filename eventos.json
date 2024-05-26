@@ -1,12 +1,154 @@
+
 [
     {
-        "nome": "fernando",
-        "idade": 18,
-        "sexo": "M"
+        "id": "01",
+        "nome": "Menu Bem Brasileiro", 
+		"categoria": "Gastronomia",
+		"classificação": "12 anos",
+		"descrição": "Com dimensões continentais, a gastronomia do nosso país conta com matérias-primas preciosas e processos artesanais históricos. Muito rica e diversa, reúne ingredientes surpreendentes que podem ser combinados e transformados em pratos  memoráveis. Venha participar desta aula onde vamos preparar um menu de sabores bem brasileiros, explorando ingredientes e adotando técnicas para transformá-los em pratos super saborosos!",
+		"endereço": "Farol Santander - Rua João Brícola, 24, 31° andar, Centro Histórico de São Paulo",
+		"data": "30/05/2024 - 12:00 > 14:00"
+        
     },
     {
-        "nome": "lucas",
-        "idade": 18,
-        "sexo": "m"
+        "id": "02",
+        "nome": "Campus Party Brasil 2024", 
+		"categoria": "Tecnologia",
+		"classificação": "Livre",
+		"descrição": "Chegando a sua 16ª edição, a Campus Party Brasil se reinventa e se renova, mas continua sendo o maior festival sobre tecnologia, disrupção, empreendedorismo e STEAM!",
+        "endereço": "Expo Center Norte - Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo",
+		"data": "09/07/2024 > 14/07/2024"
+        
+    },
+    {
+        "id": "03",
+        "nome": "AZ-900 - Microsoft Azure Fundamentals", 
+		"categoria": "Tecnologia",
+		"classificação": "Livre",
+		"descrição": "A oportunidade na computação em nuvem é clara. A maioria das empresas está implementando ou planejando como implementar tecnologias de nuvem dentro de suas operações. Não fique para trás. Esteja à frente, obtendo a certificação Azure e esteja pronto para a oportunidade de alavancar sua carreira. Da próxima vez que o seu currículo estiver na mesa de alguém — seja para uma promoção no trabalho ou para uma nova oportunidade — você não pode se dar ao luxo de ter uma lacuna tão óbvia no conhecimento. Ter habilidades no Azure em seu currículo só vai ajudá-lo a se destacar no mercado de trabalho.",
+        "endereço": "Evento Online",
+		"data": "Acesso por 1 ano"
+        
+    },
+	{
+        "id": "04",
+        "nome": "Futurecom", 
+		"categoria": "Tecnologia",
+		"classificação": "18 anos",
+		"descrição": "O Futurecom é o maior evento de tecnologia e telecomunicações da América Latina, reconhecido por reunir os principais líderes e profissionais do setor.",
+        "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
+		"data": "08/10/2024 > 10/10/2024"
+        
+    },
+	{
+        "id": "05",
+        "nome": "3º Beco Fest A Arte de Assar", 
+		"categoria": "Gastronomia",
+		"classificação": "Livre",
+		"descrição": "7 Horas de Open Food e Choop Cevada pura, para os amantes do churrasco, das churrasqueiras, da defumação tradicional, do americam BBQ e daquele Chopp bem Gelado",
+        "endereço": "Beco do Porto, 1933, Bolsao Da Avenida Alidor Pecorari, 1933, Centro de Piracicaba, São Paulo",
+		"data": "25/05/2024 - 11:00"
+        
+    },
+	{
+        "id": "06",
+        "nome": "4ª edição - SPACE DINNER com personalidades", 
+		"categoria": "Gastronomia",
+		"classificação": "Livre",
+		"descrição": "Um jantar especial beneficente organizado pela Fundação Astronauta Marcos Pontes – ASTROPONTES, onde o Astronauta Marcos Pontes recebe autoridades, empresários, pilotos civis e militares, um jantar para toda família. Venha confraternizar conosco, trocando experiências, conhecimentos em uma noite muito agradável e inesquecível!",
+        "endereço": "Espaço Matovani, Avenida Elias Miguel Maluf, 1-25, Vila Industrial, Bauru, São Paulo",
+		"data": "07/06/2024 - 20:00"
+        
+    },
+	{
+        "id": "07",
+        "nome": "Anime Friends 2024", 
+		"categoria": "Geek",
+		"classificação": "Livre",
+		"descrição": "O maior evento de cultura Pop Asiática da América Latina",
+        "endereço": "Sambódromo do Anhembi, Av. Olavo Fontoura, 1.209, Santana, São Paulo",
+		"data": "18/07/2024 > 21/07/2024"
+        
+    },
+	{
+        "id": "08",
+        "nome": "Encontro de Vinhos São Paulo", 
+		"categoria": "Gastronomia",
+		"classificação": "Livre",
+		"descrição": "O Encontro de Vinhos em São Paulo é o evento mais vibrante e apaixonante do universo dos vinhos no Brasil! Não perca a próxima edição, marcada para Junho, onde você terá a oportunidade de degustar mais de 200 vinhos distintos. ",
+        "endereço": "Espaço do Bosque, Rua Wener Von Siemens, 111, Lapa de Baixo, São Paulo",
+		"data": "08/06/2024 - 12:00 > 16:00"
+        
+    },
+	{
+        "id": "09",
+        "nome": "8º Festival de Cervejas Artesanais de Barra Bonita", 
+		"categoria": "Gastronomia",
+		"classificação": "Livre para todos os públicos",
+		"descrição": "O 8º Festival de Cervejas Artesanais de Barra Bonita já tem data e lugar confirmados: será no dia 6 de julho, no Barra Bonita Camping. O evento mantém o espírito original, ampliando a experiência e trazendo novas atrações.",
+        "endereço": "Barra Bonita Camping - Rua Silvio Morsoleto, 100, Recanto da Barra Bonita, São Paulo",
+		"data": "06/07/2024 - 13:00"
+        
+    },
+	{
+        "id": "10",
+        "nome": "Gamescom LATAM", 
+		"categoria": "Geek",
+		"classificação": "Livre",
+		"descrição": "GAMESCOM LATAM",
+        "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
+		"data": "26/06/2024 > 30/06/2024"
+        
+    },
+	{
+        "id": "11",
+        "nome": "CCXP24", 
+		"categoria": "Geek",
+		"classificação": "Livre",
+		"descrição": "A CCXP é um multiverso para chamar de seu, um lugar onde todos os crossovers são possíveis e reais. Aqui, os momentos épicos estão por toda parte.",
+        "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
+		"data": "05/12/2024 > 08/12/2024"
+        
+    },
+	{
+        "id": "12",
+        "nome": "Brasil Game Show 2024", 
+		"categoria": "Geek",
+		"classificação": "16 anos",
+		"descrição": "A Brasil Game Show é uma feira anual de videogames organizada pelo empresário Marcelo Tavares, atualmente realizada em São Paulo, Brasil. A feira é considerada a maior conferência do gênero em toda a América Latina",
+        "endereço": "Expo Center Norte - Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo",
+		"data": "09/10/2024 > 13/10/2024"
+        
+    },
+	{
+        "id": "13",
+        "nome": "Dia do Orgulho Nerd no Ibirapuera", 
+		"categoria": "Geek",
+		"classificação": "Livre",
+		"descrição": "No dia 25 de maio, no Pavilhão da Bienal, no Parque Ibirapuera, você tem um encontro marcado! Pela primeira vez,  São Paulo vai comemorar oficialmente o Dia do Orgulho Nerd SP! Junte-se a nós para celebrar um dia único e emocionante, que simboliza a valorização e o reconhecimento da diversidade cultural nerd e geek!",
+        "endereço": "Fundação Bienal de São Paulo, Av. Pedro Álvares Cabral, s/n, Ibirapuera, São Paulo",
+		"data": "25/05/2024 / 10:00"
+        
+    },
+	{
+        "id": "14",
+        "nome": "MSP Summit 2024", 
+		"categoria": "Tecnologia",
+		"classificação": "18 anos",
+		"descrição": "O MSP Summit 2024 é o principal e maior evento brasileiro dedicado aos Prestadores de Serviços Gerenciados de TI (MSPs), organizado pela ADDEE e realizado anualmente em outubro, mês de celebração do Dia do Profissional de TI. Este é o encontro essencial para quem atua como MSP, Prestador de Serviços ou Profissional de TI, oferecendo uma oportunidade ímpar para se manter atualizado sobre as últimas tendências do mercado de Tecnologia da Informação.  ",
+        "endereço": "PRO MAGNO Centro de Eventos,Avenida Professora Ida Kolb, 513 Jardim das Laranjeiras, São Paulo",
+		"data": "16/10/2024 - 08:00 > 17/10/2024 - 18:00"
+        
+    },
+	{
+        "id": "15",
+        "nome": "Inovatech Executive Summit 2024", 
+		"categoria": "Tecnologia",
+		"classificação": "18 anos",
+		"descrição": "O Inovatech Executive Summit 2024 é o maior encontro do Brasil para executivos de Tecnologia & Inovação",
+        "endereço": "World Trade Center São Paulo, Avenida das Nações Unidas, 12551, Cidade Monções, São Paulo",
+		"data": "23/10/2024 - 08:00 > 19:00"
+        
     }
-]
+  ]
+

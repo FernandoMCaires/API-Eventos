@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Eventos</title>
-    <script src="./app.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- <title>API Eventos</title> -->
 
-<body>
-    <h1>Lista de Eventos</h1>
-    <div id="eventos__gastronomicos"></div>
-</body>
+
+        <link rel="stylesheet" href="index.css">
+        <script src="./app.js"></script>
+    </head>
+
+    <body>
+        <nav> 
+            <h2> Eventos </h2>
+            <div class="nav_bar">
+
+            <div>
+                <h3>Lista de Eventos</h3>
+            </div>
+            <div class="nav_bar_input">
+                <form role="search">
+                    <input type="text" id="buscaNome" placeholder="Pesquise por nome....">
+                    <button id="btnBusca"> Pesquisar </button>
+                </form>
+            </div>
+        </div>
+        </nav>
+
+        <div id="eventos__gastronomicos" class="cards"></div>
+
+    </body>
 
 </html>
