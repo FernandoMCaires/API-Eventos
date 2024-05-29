@@ -20,25 +20,25 @@ Uma API de eventos para o trabalho final de LSW - Linguagens de Script para Web.
 Clone o projeto
 
 ```bash
-  git clone https://github.com/fensk-cmd/API-Eventos.git
+git clone https://github.com/fensk-cmd/API-Eventos.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd API-Eventos
+cd ./API-Eventos
 ```
 
 Instale as dependências
 
 ```bash
-  npm install
+npm install
 ```
 
 Inicie o servidor
 
 ```bash
-  npm start
+npm start
 ```
 
 
