@@ -8,7 +8,7 @@
     "endereço": "Farol Santander - Rua João Brícola, 24, 31° andar, Centro Histórico de São Paulo",
     "data": "30/05/2024 - 12:00 > 14:00",
     "preco": "R$ 150,00",
-    "img": "img/menu_bem_brasileiro.jpg"
+    "img": ""
   },
   {
     "id": "02",
@@ -19,7 +19,7 @@
     "endereço": "Expo Center Norte - Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo",
     "data": "09/07/2024 > 14/07/2024",
     "preco": "R$ 300,00",
-    "img": "img/campus_party.jpg"
+    "img": ""
   },
   {
     "id": "03",
@@ -30,7 +30,7 @@
     "endereço": "Evento Online",
     "data": "Acesso por 1 ano",
     "preco": "R$ 200,00",
-    "img": "img/azure_fundamentals.jpg"
+    "img": ""
   },
   {
     "id": "04",
@@ -41,7 +41,7 @@
     "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
     "data": "08/10/2024 > 10/10/2024",
     "preco": "R$ 400,00",
-    "img": "img/futurecom.jpg"
+    "img": ""
   },
   {
     "id": "05",
@@ -52,7 +52,7 @@
     "endereço": "Beco do Porto, 1933, Bolsao Da Avenida Alidor Pecorari, 1933, Centro de Piracicaba, São Paulo",
     "data": "25/05/2024 - 11:00",
     "preco": "R$ 100,00",
-    "img": "img/beco_fest.jpg"
+    "img": ""
   },
   {
     "id": "06",
@@ -63,7 +63,7 @@
     "endereço": "Espaço Matovani, Avenida Elias Miguel Maluf, 1-25, Vila Industrial, Bauru, São Paulo",
     "data": "07/06/2024 - 20:00",
     "preco": "R$ 250,00",
-    "img": "img/space_dinner.jpg"
+    "img": ""
   },
   {
     "id": "07",
@@ -74,7 +74,7 @@
     "endereço": "Sambódromo do Anhembi, Av. Olavo Fontoura, 1.209, Santana, São Paulo",
     "data": "18/07/2024 > 21/07/2024",
     "preco": "R$ 180,00",
-    "img": "img/anime_friends.jpg"
+    "img": ""
   },
   {
     "id": "08",
@@ -85,7 +85,7 @@
     "endereço": "Espaço do Bosque, Rua Wener Von Siemens, 111, Lapa de Baixo, São Paulo",
     "data": "08/06/2024 - 12:00 > 16:00",
     "preco": "R$ 120,00",
-    "img": "img/encontro_vinhos.jpg"
+    "img": ""
   },
   {
     "id": "09",
@@ -96,7 +96,7 @@
     "endereço": "Barra Bonita Camping - Rua Silvio Morsoleto, 100, Recanto da Barra Bonita, São Paulo",
     "data": "06/07/2024 - 13:00",
     "preco": "R$ 90,00",
-    "img": "img/festival_cervejas.jpg"
+    "img": ""
   },
   {
     "id": "10",
@@ -107,7 +107,7 @@
     "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
     "data": "26/06/2024 > 30/06/2024",
     "preco": "R$ 350,00",
-    "img": "img/gamescom_latam.jpg"
+    "img": ""
   },
   {
     "id": "11",
@@ -118,7 +118,7 @@
     "endereço": "São Paulo Expo - Rodovia dos Imigrantes, 1,5 km - Vila Água Funda, São Paulo",
     "data": "05/12/2024 > 08/12/2024",
     "preco": "R$ 400,00",
-    "img": "img/ccxp24.jpg"
+    "img": ""
   },
   {
     "id": "12",
@@ -129,7 +129,7 @@
     "endereço": "Expo Center Norte - Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo",
     "data": "09/10/2024 > 13/10/2024",
     "preco": "R$ 320,00",
-    "img": "img/brasil_game_show.jpg"
+    "img": ""
   },
   {
     "id": "13",
@@ -140,7 +140,7 @@
     "endereço": "Fundação Bienal de São Paulo, Av. Pedro Álvares Cabral, s/n, Ibirapuera, São Paulo",
     "data": "25/05/2024 / 10:00",
     "preco": "R$ 80,00",
-    "img": "img/orgulho_nerd.jpg"
+    "img": ""
   },
   {
     "id": "14",
@@ -151,7 +151,7 @@
     "endereço": "PRO MAGNO Centro de Eventos, Avenida Professora Ida Kolb, 513 Jardim das Laranjeiras, São Paulo",
     "data": "16/10/2024 - 08:00 > 17/10/2024 - 18:00",
     "preco": "R$ 500,00",
-    "img": "img/msp_summit.jpg"
+    "img": ""
   },
   {
     "id": "15",
@@ -162,7 +162,7 @@
     "endereço": "World Trade Center São Paulo, Avenida das Nações Unidas, 12551, Cidade Monções, São Paulo",
     "data": "23/10/2024 - 08:00 > 19:00",
     "preco": "R$ 600,00",
-    "img": "img/inovatech_summit.jpg"
+    "img": ""
   },
   {
     "id": "16",
@@ -173,7 +173,7 @@
     "endereço": "Campos do Jordão, São Paulo",
     "data": "01/07/2024 > 31/07/2024",
     "preco": "R$ 150,00",
-    "img": "img/inverno_campos_jordao.jpg"
+    "img": ""
   },
   {
     "id": "17",
@@ -184,7 +184,7 @@
     "endereço": "Paranapiacaba, São Paulo",
     "data": "01/07/2024 > 31/07/2024",
     "preco": "R$ 100,00",
-    "img": "img/inverno_paranapiacaba.jpg"
+    "img": ""
   },
   {
     "id": "18",
@@ -195,7 +195,7 @@
     "endereço": "São Paulo, São Paulo",
     "data": "01/07/2024 > 31/07/2024",
     "preco": "R$ 120,00",
-    "img": "img/inverno_sao_paulo.jpg"
+    "img": ""
   },
   {
     "id": "19",
@@ -206,7 +206,7 @@
     "endereço": "São Paulo, São Paulo",
     "data": "01/10/2024 > 31/10/2024",
     "preco": "R$ 180,00",
-    "img": "img/festival_ti.jpg"
+    "img": ""
   },
   {
     "id": "20",
@@ -217,7 +217,7 @@
     "endereço": "São Paulo, São Paulo",
     "data": "01/06/2024 > 30/06/2024",
     "preco": "R$ 100,00",
-    "img": "img/gastronomia_sao_paulo.jpg"
+    "img": ""
   },
   {
     "id": "21",
@@ -228,7 +228,7 @@
     "endereço": "São Paulo, São Paulo",
     "data": "01/11/2024 > 30/11/2024",
     "preco": "R$ 200,00",
-    "img": "img/tecnologia_sao_paulo.jpg"
+    "img": ""
   },
   {
     "id": "22",
@@ -239,7 +239,7 @@
     "endereço": "Rio de Janeiro, Copa Cabana",
     "data": "01/07/2024 > 31/07/2024",
     "preco": "R$ 150,00",
-    "img": "img/gastronomia_rio.jpg"
+    "img": ""
   },
   {
     "id": 25,

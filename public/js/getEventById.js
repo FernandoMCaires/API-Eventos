@@ -28,7 +28,7 @@ function getEventById(id) {
           <div class="card-body">
             <div class="row">
               <div class="col-12 col-md-6">
-                <img src="${evento.img}" alt="" id="eventImage" class="img-fluid">
+                <img src="${evento.img? evento.img: 'https://via.placeholder.com/600'}" alt="" id="eventImage" class="img-fluid">
               </div>
               <div class="col-12 col-md-6">
                 <p class="card-text" id="eventDescription">${evento.descrição}</p>
