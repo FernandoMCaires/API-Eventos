@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento TOP!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="../js/cadastraEvento.js" defer></script>
+</head>
+
+<body>
+    <nav class="align-items-center text-center ">
+        <div
+            class="nav_bar d-flex align-items-center justify-content-around py-4 border-bottom border-2 border-primary">
+            <h1>Eventos TOP!</h1>
+
+            <div class="btn-group">
+                <a href="../index.html" class="btn btn-outline-primary">Lista de eventos</a>
+                <a href="./randomEvento.html" class="btn btn-outline-success">Evento randomico</a>
+                <a href="./cadastrarEvento.html" class="btn btn-outline-dark">Sugerir evento</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h2>Cadastrar evento</h2>
+        <div class="row g-3">
+            <div class="col-md-8">
+                <label for="inputNome" class="form-label">Nome do evento</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome...">
+            </div>
+            <div class="col-md-4">
+                <label for="inputClassificacao" class="form-label">Classificação</label>
+                <input type="text" class="form-control" id="inputClassificacao" placeholder="Classificação...">
+            </div>
+            <div class="col-md-6">
+                <label for="inputInitialData" class="form-label">Data do inicio do evento</label>
+                <input type="date" class="form-control" id="inputInitialData">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEndData" class="form-label">Data do fim do evento</label>
+                <input type="date" class="form-control" id="inputEndData">
+            </div>
+            <div class="col-10">
+                <label for="inputLocal" class="form-label">Local do evento</label>
+                <input type="text" class="form-control" id="inputLocal" placeholder="Local...">
+            </div>
+            <div class="col-2">
+                <label for="inputPrice" class="form-label">Preço</label>
+                <input type="number" class="form-control" id="inputPrice" min="0" placeholder="Valor...">
+            </div>
+            <div class="col-12">
+                <label for="inputCategoria" class="form-label">Categoria</label>
+                <input type="text" class="form-control" id="inputCategoria" placeholder="Categoria...">
+            </div>
+            <div class="col-12">
+                <label for="inputImagem" class="form-label">Imagem do evento</label>
+                <input type="text" class="form-control" id="inputImagem" placeholder="URL da imagem...">
+            </div>
+            <div class="col-12">
+                <label for="inputDescricao" class="form-label">Descrição do evento</label>
+                <textarea class="form-control" id="inputDescricao" rows="3" placeholder="Descrição..."></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" onclick="cadastrarEvento()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

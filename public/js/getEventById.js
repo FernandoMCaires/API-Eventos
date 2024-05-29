@@ -4,16 +4,19 @@ const url = new URL(window.location.href);
 const parametros = new URLSearchParams(url.search);
 const id = parametros.get("id");
 
+/**
+ * Função que busca um evento pelo ID
+ * e exibe as informações na tela
+ * @param {string} id
+ */
 function getEventById(id) {
-    fetch(`http://localhost:8080/eventos/id/${id}`)
-        .then((response) => response.json())
-        .then((data) => {
-            const evento = data;
-            console.log("evento:", evento);
+  fetch(`http://localhost:8080/eventos/id/${id}`)
+    .then((response) => response.json())
+    .then((data) => {
+      const evento = data;
+      const eventoDiv = document.createElement("div");
 
-            const eventoDiv = document.createElement("div");
-
-            eventoDiv.innerHTML = `
+      eventoDiv.innerHTML = `
     <div class="container">
        
     <div class="row">
@@ -25,7 +28,7 @@ function getEventById(id) {
           <div class="card-body">
             <div class="row">
               <div class="col-12 col-md-6">
-                <img src="https://via.placeholder.com/800" alt="" id="eventImage" class="img-fluid">
+                <img src="${evento.img}" alt="" id="eventImage" class="img-fluid">
               </div>
               <div class="col-12 col-md-6">
                 <p class="card-text" id="eventDescription">${evento.descrição}</p>
@@ -46,9 +49,9 @@ function getEventById(id) {
     </div>
   </div>
             `;
-            infoEvento.appendChild(eventoDiv);
-        })
-        .catch((error) => console.error("Erro ao carregar os eventos:", error));
+      infoEvento.appendChild(eventoDiv);
+    })
+    .catch((error) => console.error("Erro ao carregar os eventos:", error));
 }
 
 getEventById(id);
