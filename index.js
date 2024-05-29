@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const eventos = require('./eventos.json'); // Importação dos dados de eventos.
 const path = require('path');
-const { log } = require('console');
 
 const app = express();
 const PORT = 8080;
@@ -63,7 +62,7 @@ app.get('/eventos/id/:id', (req, resp) => {
     try{
         const {id} = req.params;
         let dados = eventos;
-
+        
         dados.forEach(item => {
             if(Number(item.id) == Number(id)){
                 console.log(Number(item.id));
@@ -80,6 +79,16 @@ app.get('/eventos/id/:id', (req, resp) => {
     }
 })
 
+app.get('/random', (req, res) => {
+    try{
+        const random = Math.floor(Math.random() * eventos.length);
+        res.json(eventos[random]);
+    } catch (err) {
+        res.status(400).send({
+            erro: err.message
+        })
+    }
+})
 
 
 //Inicialização do servidor Express:
