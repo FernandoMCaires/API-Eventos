@@ -1,0 +1,46 @@
+[
+  {
+    "id": "01",
+    "nome": "Menu Bem Brasileiro",
+    "categoria": "Gastronomia",
+    "classificação": "12 anos",
+    "descrição": "Com dimensões continentais, a gastronomia do nosso país conta com matérias-primas preciosas e processos artesanais históricos. Muito rica e diversa, reúne ingredientes surpreendentes que podem ser combinados e transformados em pratos memoráveis. Venha participar desta aula onde vamos preparar um menu de sabores bem brasileiros, explorando ingredientes e adotando técnicas para transformá-los em pratos super saborosos!",
+    "endereço": "Farol Santander - Rua João Brícola, 24, 31° andar, Centro Histórico de São Paulo",
+    "data": "30/05/2024 - 12:00 > 14:00",
+    "preco": "R$ 150,00",
+    "img": ""
+  },
+  {
+    "id": "02",
+    "nome": "Campus Party Brasil 2024",
+    "categoria": "Tecnologia",
+    "classificação": "Livre",
+    "descrição": "Chegando a sua 16ª edição, a Campus Party Brasil se reinventa e se renova, mas continua sendo o maior festival sobre tecnologia, disrupção, empreendedorismo e STEAM!",
+    "endereço": "Expo Center Norte - Rua José Bernardo Pinto, 333, Vila Guilherme, São Paulo",
+    "data": "09/07/2024 > 14/07/2024",
+    "preco": "R$ 300,00",
+    "img": ""
+  },
+  {
+    "id": "03",
+    "nome": "AZ-900 - Microsoft Azure Fundamentals",
+    "categoria": "Tecnologia",
+    "classificação": "Livre",
+    "descrição": "A oportunidade na computação em nuvem é clara. A maioria das empresas está implementando ou planejando como implementar tecnologias de nuvem dentro de suas operações. Não fique para trás. Esteja à frente, obtendo a certificação Azure e esteja pronto para a oportunidade de alavancar sua carreira. Da próxima vez que o seu currículo estiver na mesa de alguém — seja para uma promoção no trabalho ou para uma nova oportunidade — você não pode se dar ao luxo de ter uma lacuna tão óbvia no conhecimento. Ter habilidades no Azure em seu currículo só vai ajudá-lo a se destacar no mercado de trabalho.",
+    "endereço": "Evento Online",
+    "data": "Acesso por 1 ano",
+    "preco": "R$ 200,00",
+    "img": ""
+  },
+  {
+    "id": "20",
+    "nome": "Festival de Gastronomia de São Paulo",
+    "categoria": "Gastronomia",
+    "classificação": "Livre",
+    "descrição": "O Festival de Gastronomia de São Paulo é um evento que acontece anualmente na cidade de São Paulo, no estado de São Paulo, Brasil. O evento é realizado no mês de junho e tem como objetivo promover a cultura e a gastronomia da região.",
+    "endereço": "São Paulo, São Paulo",
+    "data": "01/06/2024 > 30/06/2024",
+    "preco": "R$ 100,00",
+    "img": ""
+  }
+]

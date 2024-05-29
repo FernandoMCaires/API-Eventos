@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const eventos = require('./eventos.json'); // Importação dos dados de eventos.
+const fav = require('./eventosFavoritos.json'); 
 const path = require('path');
 const fs = require('fs');
 
@@ -115,6 +116,28 @@ app.post('/eventos', (req, res) => {
     });
 });
 
+app.get('/eventosFavoritos', (req, res) => {
+    res.json(fav);
+});
+
+app.post('/eventosFavoritos', (req, res) => {
+    const newObject = req.body;
+    fs.readFile('eventosFavoritos.json', 'utf8', (err, data) => {
+        if (err) {
+            res.status(500).send('Erro ao ler o arquivo JSON.');
+        } else {
+            const jsonData = JSON.parse(data);
+            jsonData.push(newObject);
+            fs.writeFile('eventosFavoritos.json', JSON.stringify(jsonData, null, 2), (err) => {
+                if (err) {
+                    res.status(500).send('Erro ao escrever no arquivo JSON.');
+                } else {
+                    res.status(201).send({sucesso: 'Evento favorito cadastrado com sucesso!'});
+                }
+            });
+        }
+    });
+});
 
 //Inicialização do servidor Express:
 app.listen(PORT, () => {

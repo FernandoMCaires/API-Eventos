@@ -12,32 +12,34 @@
 </head>
 
 <body>
-    <nav class="align-items-center text-center ">
-      <div class="nav_bar d-flex align-items-center justify-content-around py-4 border-bottom border-2 border-primary">
-        <h1>Eventos TOP!</h1>
+  <nav class="align-items-center text-center">
+    <div class="nav_bar d-flex align-items-center justify-content-around py-4 border-bottom border-2 border-primary">
+      <h1>Eventos TOP!</h1>
 
+      <div>
         <div class="btn-group">
           <a href="./index.html" class="btn btn-outline-primary">Lista de eventos</a>
           <a href="./pages/randomEvento.html" class="btn btn-outline-success">Evento randomico</a>
           <a href="./pages/cadastrarEvento.html" class="btn btn-outline-dark">Sugerir evento</a>
         </div>
-
-      </div>
-    </nav>
-    <div class="input-group my-5 w-100 d-flex justify-content-center">
-      <div class="d-flex w-50">
-        <input type="search" id="buscaNome" class="form-control me-2" placeholder="Pesquise por nome...."
-          aria-label="Pesquise por nome" aria-describedby="btnBusca" />
-        <div id="__groups-btn__" class="d-flex">
-          <button id="btnBusca" class="btn btn-outline-secondary me-2" onclick="buscar()">
-            Pesquisar
-          </button>
-        </div>
+        <a href="./pages/eventosFavoritos.html" class="btn btn-outline-danger mx-2">Eventos favoritos</a>
       </div>
     </div>
+  </nav>
+  <div class="input-group my-5 w-100 d-flex justify-content-center">
+    <div class="d-flex w-50">
+      <input type="search" id="buscaNome" class="form-control me-2" placeholder="Pesquise por nome...."
+        aria-label="Pesquise por nome" aria-describedby="btnBusca" />
+      <div id="__groups-btn__" class="d-flex">
+        <button id="btnBusca" class="btn btn-outline-secondary me-2" onclick="buscar()">
+          Pesquisar
+        </button>
+      </div>
+    </div>
+  </div>
 
-    <div id="eventos__gastronomicos" class="cards d-flex justify-content-center flex-wrap gap-4 my-5 text-"></div>
-    <div id="eventos__busca" class="cards d-flex justify-content-center flex-wrap gap-4 my-5 text-"></div>
+  <div id="eventos__gastronomicos" class="cards d-flex justify-content-center flex-wrap gap-4 my-5 text-"></div>
+  <div id="eventos__busca" class="cards d-flex justify-content-center flex-wrap gap-4 my-5 text-"></div>
 </body>
 
 </html>
